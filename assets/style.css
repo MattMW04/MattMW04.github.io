@@ -3,6 +3,7 @@ body{
     padding:0%;
     background:whitesmoke;
 }
+
 .container{
     display:flex;
     flex-direction: column;
@@ -17,8 +18,26 @@ ul{
     padding: 0%;
     width: auto;
 }
+
 li{
     display: inline-block;
     text-align: center;
     color:black;
+    align-items:center;
+    text-decoration: none;
+}
+
+ul li:hover{
+    background-color:lightgrey;
+}
+
+.navLink{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    color: grey;
+    margin: 0;
+    padding: 0;
+
 }
