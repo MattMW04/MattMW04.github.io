@@ -25,11 +25,10 @@ li{
     color:black;
     align-items:center;
     text-decoration: none;
+    width: 33.33%;
 }
 
-ul li:hover{
-    background-color:lightgrey;
-}
+
 
 .navLink{
     text-decoration: none;
@@ -40,4 +39,8 @@ ul li:hover{
     margin: 0;
     padding: 0;
 
+}
+
+.navLink:hover{
+    background-color:lightgrey;
 }
